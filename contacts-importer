@@ -39,6 +39,11 @@ $feeds_importer->config = array(
           'target' => 'last_name',
           'unique' => FALSE,
         ),
+        2 => array(
+          'source' => 'Email',
+          'target' => 'email',
+          'unique' => FALSE,
+        ),
       ),
       'update_existing' => '2',
       'input_format' => NULL,
