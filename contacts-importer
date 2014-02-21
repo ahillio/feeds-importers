@@ -3,7 +3,7 @@ $feeds_importer->disabled = FALSE; /* Edit this to true to make a default feeds_
 $feeds_importer->api_version = 1;
 $feeds_importer->id = 'contacts';
 $feeds_importer->config = array(
-  'name' => 'Contacts',
+  'name' => 'Contacts Importer',
   'description' => '',
   'fetcher' => array(
     'plugin_key' => 'FeedsFileFetcher',
@@ -40,7 +40,7 @@ $feeds_importer->config = array(
           'unique' => FALSE,
         ),
       ),
-      'update_existing' => '0',
+      'update_existing' => '2',
       'input_format' => NULL,
       'skip_hash_check' => 0,
       'bundle' => 'contact',
